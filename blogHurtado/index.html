@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio de un desarrollador web">
+    <meta name="author" content="Paul Hurtado">
+    <title>Portfolio · paul Hurtado</title>
+
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="blog.css" rel="stylesheet">
+    <style>
+      .hero {
+        background-color: #f8f9fa;
+        padding: 4rem 2rem;
+        text-align: center;
+      }
+      .hero h1 {
+        font-size: 3rem;
+        font-weight: bold;
+      }
+      .hero p {
+        font-size: 1.25rem;
+        color: #6c757d;
+      }
+      .skills, .projects, .contact {
+        padding: 2rem 0;
+      }
+      .skills h2, .projects h2, .contact h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+      }
+      .skills ul {
+        list-style: none;
+        padding: 0;
+      }
+      .skills ul li {
+        font-size: 1.25rem;
+        margin-bottom: 0.5rem;
+      }
+      .projects .card {
+        margin-bottom: 1.5rem;
+      }
+      footer {
+        background-color: #f8f9fa;
+        padding: 2rem 0;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="hero">
+      <h1>Hola, soy Juan Hurtado</h1>
+      <p>Desarrollador web full-stack con experiencia en crear aplicaciones modernas, escalables y funcionales.</p>
+    </header>
+
+    <main class="container">
+      <!-- Sección de habilidades -->
+      <section class="skills">
+        <h2>Habilidades</h2>
+        <ul>
+          <li><strong>Frontend:</strong> HTML5, CSS3, JavaScript (ES6+), React, Angular</li>
+          <li><strong>Backend:</strong> Node.js, Express, PHP, Python (Django, Flask)</li>
+          <li><strong>Bases de datos:</strong> MySQL, PostgreSQL, MongoDB</li>
+          <li><strong>DevOps:</strong> Docker, CI/CD, AWS, Azure</li>
+          <li><strong>Herramientas:</strong> Git, GitHub, VS Code, Postman</li>
+        </ul>
+      </section>
+
+      <!-- Sección de proyectos -->
+      <section class="projects">
+        <h2>Proyectos destacados</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">E-commerce App</h5>
+                <p class="card-text">Desarrollé una plataforma de comercio electrónico utilizando React, Node.js y MongoDB. Incluye autenticación, carrito de compras y pasarela de pagos.</p>
+                <a href="https://github.com/tuusuario/ecommerce-app" class="btn btn-primary" target="_blank">Ver proyecto</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Gestor de Tareas</h5>
+                <p class="card-text">Aplicación web para gestionar tareas personales y de equipo. Construida con Angular y Firebase para almacenamiento en tiempo real.</p>
+                <a href="https://github.com/tuusuario/task-manager" class="btn btn-primary" target="_blank">Ver proyecto</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Blog Personal</h5>
+                <p class="card-text">Blog dinámico creado con Django y PostgreSQL. Permite a los usuarios registrarse, publicar artículos y comentar.</p>
+                <a href="https://github.com/tuusuario/blog-django" class="btn btn-primary" target="_blank">Ver proyecto</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección de contacto -->
+      <section class="contact">
+        <h2>Contacto</h2>
+        <p>¿Tienes un proyecto interesante? ¡Hablemos!</p>
+        <ul class="list-unstyled">
+          <li><strong>Email:</strong> <a href="mailto:juan.hurtado@example.com">juan.hurtado@example.com</a></li>
+          <li><strong>GitHub:</strong> <a href="https://github.com/tuusuario" target="_blank">github.com/tuusuario</a></li>
+          <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/tuusuario" target="_blank">linkedin.com/in/tuusuario</a></li>
+          <li><strong>Teléfono:</strong> +34 600 123 456</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Paul Hurtado. Todos los derechos reservados.</p>
+    </footer>
+
+    <script defer src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
